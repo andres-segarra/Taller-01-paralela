@@ -42,7 +42,7 @@ Tambien sus datos deben encontrarse separados con  ( ; ) y deben estar separados
 _Para esto puedes descargarlo directo desde GitHub o clonarlo desde un terminal._
 
 ```
-git clone 
+git clone = https://github.com/andres-segarra/Taller-01-paralela.git
 
 2. Construccion del proyecto
 
