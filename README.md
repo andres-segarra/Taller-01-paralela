@@ -46,16 +46,14 @@ git clone = https://github.com/andres-segarra/Taller-01-paralela.git
 
 2. Construccion del proyecto
 
-_Para esto se utilizara la herramienta mencionada anteriormente, Make. Para esto debes ejecutar el siguiente comando en un terminal:_
-
-```
-make
-```
-
+El archivo pruebas.csv es muy pesado, como para subirlo, y suele tener problemas, ya que el tamaña era muy grande, asi que utilizamos un arhivo "testeo.csv" de un tamaño mas aceptable, donde en la linea 10 del codigo "  #define NOMBRE_ARCHIVO "pruebas.csv"   ",  se cambia " pruebas.csv" por "testeo.csv" .  
+Se tiene el archivo make, pero no se pudo usar porque habia problemas al hacer uso de openmp, y no se pudo testear la paralelizacion 
 ## Ejecucion del proyecto ⚙️
-_Dependiendo del entorno en cual lo ejecutes, debes llamar al archivo "main", que es el que iniciara el programa. A la vez debes ingresar el parametro, todo esto desde el terminal. Un ejemplo en linux seria:_
+usar en la terminal en la carpeta donde se encuentra main.cpp
+ y escribir: 
 ```
-./main /ruta/al/archivo/pruebas.csv
+g++ main.cpp -o main.out
+./main.out
 ```
 
 ## Construido con 🛠️
