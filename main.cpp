@@ -7,7 +7,7 @@
 #include <vector>
 #include <iomanip>
 #include <omp.h>
-#define NOMBRE_ARCHIVO "testeo.csv"
+#define NOMBRE_ARCHIVO "pruebas.csv"
 
 //using
 using namespace std;
