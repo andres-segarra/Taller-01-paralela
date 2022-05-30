@@ -9,6 +9,7 @@ Por este motivo, un comité del Estado le pide realizar un programa, que permita
 de forma desatendida y en el menor tiempo posible.
 
 ## Como ejecutar 🚀
+
 Las siguientes instrucciones te permitiran obtener una copia del programa, y asi poder ejecutarlo.
 
 ### Pre-requisitos 📋
@@ -18,6 +19,7 @@ Las siguientes instrucciones te permitiran obtener una copia del programa, y asi
  - Archivo con formato necesario
 ```
 ### Formato archivo 📋
+
 Es necesario contar con un archivo llamado "pruebas.csv", el cual tiene que contener su informacion distribuida de la siguiente manera en distintas columnas:
 
   1. Columna debe tener el identificador encriptado del estudiante.
@@ -35,6 +37,7 @@ Es necesario contar con un archivo llamado "pruebas.csv", el cual tiene que cont
   13. Columna debe tener respuesta/omicion de la pregunta 12 del estudiante.
 
 Tambien sus datos deben encontrarse separados con  ( ; ) y deben estar separados por punto y coma, y encerrados por doble comilla ("dato1";"dato2").
+
 ### Instalación 🔧
 
 1. Clonar el proyecto a tu PC
@@ -49,19 +52,26 @@ El archivo pruebas.csv es muy pesado, como para subirlo.
 
 
 ## Ejecucion del proyecto ⚙️
-usar la terminal en la carpeta donde se encuentra main.cpp,  y escribir: 
+
+Usar la terminal en la carpeta donde se encuentra main.cpp,  y escribir: 
 make
 time ./main.o
 ```
-una vez ya ejecutado make, no sera necesario escribirlo otra vez, ya que el ejecutable ya existira, y solo escriba: time ./main.o
+Una vez ya ejecutado make, no sera necesario escribirlo otra vez, ya que el ejecutable ya existira, y solo escriba: time ./main.o
  
 ## Construido con 🛠️
 
 * C++ - Lenguaje de programacion utilizado
-* Make - Utilizado para compilar la aplicacion de C++
+* Make - Utilizado para construir la aplicacion de C++ por consola
+
+## Herramientas 🛠️
+
+* VisualStudioCOde1.67.2
 * [codeblocks-20.03-setup.exe] - Usado para crear el codigo
+* Lubuntu 22.04
 
 ## Problemas presentados 🛠️
+
 El trabajo presentado solo se pudo trabajar la parte secuencial y paralela (OpenMP) y correrlo con make.
 
 La paralelizacion del uso de OMP, no quedo bien optimizado, ya que entramos en la encrucijada, de si la salida de archivos era ordenado,
@@ -73,8 +83,9 @@ de que se trabajasen los hilos solicitados, dando como resultado con los datos c
 
 
 ## Autores ✒️
---Rodrigo Mora PaltaLuis Rivas Sanchez
 
--Andres Segarra Pavez
+-Rodrigo Mora Palta.
 
--Rodrigo Mora Palta
+-Luis Rivas Sanchez.
+
+-Andres Segarra Pavez.
