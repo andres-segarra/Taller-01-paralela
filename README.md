@@ -34,33 +34,38 @@ Es necesario contar con un archivo llamado "pruebas.csv", el cual tiene que cont
   12. Columna debe tener respuesta/omicion de la pregunta 11 del estudiante.
   13. Columna debe tener respuesta/omicion de la pregunta 12 del estudiante.
 
-Tambien sus datos deben encontrarse separados con  ( ; ) y deben estar separados por punto y coma ("dato1";"dato2").
+Tambien sus datos deben encontrarse separados con  ( ; ) y deben estar separados por punto y coma, y encerrados por doble comilla ("dato1";"dato2").
 ### Instalación 🔧
 
 1. Clonar el proyecto a tu PC
 
 _Para esto puedes descargarlo directo desde GitHub o clonarlo desde un terminal._
-
 ```
 git clone = https://github.com/andres-segarra/Taller-01-paralela.git
 
 2. Construccion del proyecto
 
-El archivo pruebas.csv es muy pesado, como para subirlo, y suele tener problemas, ya que el tamaña era muy grande, asi que utilizamos un arhivo "testeo.csv" de un tamaño mas aceptable, donde en la linea 10 del codigo "  #define NOMBRE_ARCHIVO "pruebas.csv"   ",  se cambia " pruebas.csv" por "testeo.csv" .  
-Se tiene el archivo make, pero no se pudo usar porque habia problemas al hacer uso de openmp, y no se pudo testear la paralelizacion 
-## Ejecucion del proyecto ⚙️
-usar en la terminal en la carpeta donde se encuentra main.cpp
- y escribir: 
-```
-g++ main.cpp -o main.out
-./main.out
-```
+El archivo pruebas.csv es muy pesado, como para subirlo.
 
+
+## Ejecucion del proyecto ⚙️
+usar la terminal en la carpeta donde se encuentra main.cpp,  y escribir: 
+make
+time ./main.o
+```
+una vez ya ejecutado make, no sera necesario escribirlo otra vez, ya que el ejecutable ya existira, y solo escriba: time ./main.o
+ 
 ## Construido con 🛠️
 
 * C++ - Lenguaje de programacion utilizado
 * Make - Utilizado para compilar la aplicacion de C++
 * [codeblocks-20.03-setup.exe] - Usado para crear el codigo
+
+🛠️Problemas Presentados🛠️
+El trabajo presentado solo se pudo trabajar la parte secuencial y paralela (OpenMP) y correrlo con make.
+La paralelizacion del uso de OMP, no quedo bien optimizado, ya que entramos en la encrucijada, de si la salida de archivos era ordenado, se demoraba un poco mas que el secuencuial, pero si lo optimizabamos, quedando un 30-40% aprox de menor tiempo, la salida de datos quedaba y traspapelado y desordenado.
+El arhivo entregado, se demora aproximadamente lo mismo que el secuencial que serian aproximadamente 90 seg. a 100 seg. aprox., se corroboro de que se trabajasen los hilos solicitados, dando como resultado con los datos correctos, sin quedar desordenadostraspapelados.
+
 
 ## Autores ✒️
 -Luis Rivas Sanchez
