@@ -1,10 +1,8 @@
 CXX=g++
-CXXFLAGS=-Wall -g3
+CXXFLAGS=-fopenmp
 LDFLAGS=-lm
-
-main: main.cpp 
-	$(CXX) $(CXXFLAGS) -o main main.cpp $(LDFLAGS)
-
+main.o: main.cpp
+    $(CXX) $(CXXFLAGS) main.cpp -o main.o $(LDFLAGS)
 .PHONY: clean
 clean:
-	rm -fr *.0 main
+    rm -fr *.0 main
