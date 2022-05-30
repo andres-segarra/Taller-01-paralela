@@ -61,7 +61,7 @@ una vez ya ejecutado make, no sera necesario escribirlo otra vez, ya que el ejec
 * Make - Utilizado para compilar la aplicacion de C++
 * [codeblocks-20.03-setup.exe] - Usado para crear el codigo
 
-🛠️Problemas Presentados🛠️
+## Problemas presentados 🛠️
 El trabajo presentado solo se pudo trabajar la parte secuencial y paralela (OpenMP) y correrlo con make.
 La paralelizacion del uso de OMP, no quedo bien optimizado, ya que entramos en la encrucijada, de si la salida de archivos era ordenado, se demoraba un poco mas que el secuencuial, pero si lo optimizabamos, quedando un 30-40% aprox de menor tiempo, la salida de datos quedaba y traspapelado y desordenado.
 El arhivo entregado, se demora aproximadamente lo mismo que el secuencial que serian aproximadamente 90 seg. a 100 seg. aprox., se corroboro de que se trabajasen los hilos solicitados, dando como resultado con los datos correctos, sin quedar desordenadostraspapelados.
