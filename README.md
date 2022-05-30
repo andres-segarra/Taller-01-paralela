@@ -73,7 +73,7 @@ de que se trabajasen los hilos solicitados, dando como resultado con los datos c
 
 
 ## Autores ✒️
--Luis Rivas Sanchez
+--Rodrigo Mora PaltaLuis Rivas Sanchez
 
 -Andres Segarra Pavez
 
